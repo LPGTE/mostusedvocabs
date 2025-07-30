@@ -10,36 +10,43 @@
 <body id="page-top">
 
   <!-- Navbar -->
-  <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary">
-    <div class="container px-4">
-     <div id="navbarResponsive" class="collapse navbar-collapse">
-        <ul class="navbar-nav ">
-          <!-- Menu avec sous-menu -->
-          <li class="nav-item"><a class="nav-link" href="index.html">Acceuil</a></li>
-	  <li class="nav-item dropdown">
-	    <a class="nav-link dropdown-toggle" href="#" id="portfolioDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-	       Vocaulaires
-	    </a>
-	    <ul class="dropdown-menu" aria-labelledby="portfolioDropdown">
-	      <li><a class="dropdown-item" href="alamaison.html">A La Maison</a></li>
-	      <li><a class="dropdown-item" href="animeaux.html">Les Animeaux</a></li>
-	      <li><a class="dropdown-item" href="classeecole.html">Classe Ecole</a></li>
-	      <li><a class="dropdown-item" href="cuisineetnourriture.html">Cuisine et Nourriture</a></li>
-	      <li><a class="dropdown-item" href="familleetapproches.html">Famille et Approches</a></li>
-	      <li><a class="dropdown-item" href="lafete.html">La Fête</a></li>
-	      <li><a class="dropdown-item" href="legumes.html">Légumes</a></li>
-	      <li><a class="dropdown-item" href="vocabulairesgenereauxl1.html">Vocabulaires Genereauxl 1</a></li>
-	      <li><a class="dropdown-item" href="vocabulairesgenereauxl2.html">Vocabulaires Genereauxl 2</a></li>
-	    </ul>
-	   </li>S
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary">
+    <div class="container-fluid d-flex justify-content-between align-items-center px-4">
 
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-        </ul>
+      <!-- 1. Le bouton + menu à gauche -->
+      <div class="d-flex align-items-center">
+        <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="portfolioDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Vocabulaires
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="portfolioDropdown">
+                <li><a class="dropdown-item" href="alamaison.html">A La Maison</a></li>
+                <li><a class="dropdown-item" href="animeaux.html">Les Animaux</a></li>
+                <li><a class="dropdown-item" href="classeecole.html">Classe École</a></li>
+                <li><a class="dropdown-item" href="cuisineetnourriture.html">Cuisine et Nourriture</a></li>
+                <li><a class="dropdown-item" href="familleetapproches.html">Famille et Approches</a></li>
+                <li><a class="dropdown-item" href="lafete.html">La Fête</a></li>
+                <li><a class="dropdown-item" href="legumes.html">Légumes</a></li>
+                <li><a class="dropdown-item" href="vocabulairesgenereauxl1.html">Vocabulaires Généraux 1</a></li>
+                <li><a class="dropdown-item" href="vocabulairesgenereauxl2.html">Vocabulaires Généraux 2</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
       </div>
-      <a class="navbar-brand" href="#page-top">LPGTE SOFTS</a>
-      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+
+      <!-- 2. Le texte/brand à droite -->
+      <a class="navbar-brand ms-auto" href="#page-top">LPGTE SOFTS</a>
 
     </div>
   </nav>
