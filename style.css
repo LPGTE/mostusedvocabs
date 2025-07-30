@@ -226,15 +226,14 @@ iframe {
 }
 
 .fitContentheight {
-  height: calc(100vh - 210px); /* fixe la hauteur totale de la section */
+  height: calc(100vh - 210px); /* espace pour header et footer */
 }
 
 .container {
-  flex: 1;
   display: flex;
   flex-direction: column;
   height: 100%;
-  overflow: hidden;
+  overflow: hidden; /* très important pour limiter le débordement */
 }
 
 #pdf-viewer {
@@ -247,6 +246,8 @@ iframe {
 
 canvas {
   display: block;
+  width: 100% !important; /* garde la largeur mobile */
+  height: auto !important;
   margin: 1rem auto;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
