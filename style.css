@@ -226,20 +226,19 @@ iframe {
 }
 
 .fitContentheight {
-  display: flex;
-  flex-direction: column;
-  height: calc(100vh - 210px); /* Ajuste selon ton header/footer */
+  height: calc(100vh - 210px); /* fixe la hauteur totale de la section */
 }
 
-.container.pdf-container {
+.container {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
+  height: 100%;
   overflow: hidden;
 }
 
-#pdf-wrapper {
-  flex-grow: 1;
+#pdf-viewer {
+  flex: 1;
   overflow-y: auto;
   background: #eee;
   padding: 1rem;
