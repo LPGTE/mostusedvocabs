@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mon Portfolio | Freelancer Template</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body id="page-top">
+
+  <!-- Navbar -->
+  <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary">
+    <div class="container px-4">
+     <div id="navbarResponsive" class="collapse navbar-collapse">
+        <ul class="navbar-nav ">
+          <!-- Menu avec sous-menu -->
+          <li class="nav-item"><a class="nav-link" href="index.html">Acceuil</a></li>
+	  <li class="nav-item dropdown">
+	    <a class="nav-link dropdown-toggle" href="#" id="portfolioDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+	       Vocaulaires
+	    </a>
+	    <ul class="dropdown-menu" aria-labelledby="portfolioDropdown">
+	      <li><a class="dropdown-item" href="alamaison.html">A La Maison</a></li>
+	      <li><a class="dropdown-item" href="animeaux.html">Les Animeaux</a></li>
+	      <li><a class="dropdown-item" href="classeecole.html">Classe Ecole</a></li>
+	      <li><a class="dropdown-item" href="cuisineetnourriture.html">Cuisine et Nourriture</a></li>
+	      <li><a class="dropdown-item" href="familleetapproches.html">Famille et Approches</a></li>
+	      <li><a class="dropdown-item" href="lafete.html">La Fête</a></li>
+	      <li><a class="dropdown-item" href="legumes.html">Légumes</a></li>
+	      <li><a class="dropdown-item" href="vocabulairesgenereauxl1.html">Vocabulaires Genereauxl 1</a></li>
+	      <li><a class="dropdown-item" href="vocabulairesgenereauxl2.html">Vocabulaires Genereauxl 2</a></li>
+	    </ul>
+	   </li>S
+
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <a class="navbar-brand" href="#page-top">LPGTE SOFTS</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    </div>
+  </nav>
+
+  <!-- Contenu principal -->
+  <main class="containerPageMargin">
+ 
+ <!-- Section Description de Profil -->
+ <section class="bg-light colorWhite fitContentheight" id="about">
+  <div class="container maxHeight">
+	  <h2 class="fw-bold text-center mb-4 color1">Cuisine et Nourriture</h2>
+	  <div class="pdf-container maxHeight">
+	    <iframe 
+	      src="pdfs/cuisineetnourriture.pdf#view=FitH&toolbar=0&navpanes=0&zoom=70" 
+	      type="application/pdf">
+	    </iframe>
+	  </div>
+	  
+    </div>
+  </div>
+ </section>
+ 
+ </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container text-center">
+      <small>© 2025 Votre Nom. Tous droits réservés.</small>
+    </div>
+  </footer>
+  
+  <!-- Portfolio Modals (exemple pour modal 1) -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-body text-center">
+          <div class="container px-4">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Projet 1</h2>
+                <p class="mt-4">Details du projet...</p>
+                <button class="btn btn-primary" data-bs-dismiss="modal">Fermer</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS + Font Awesome -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/yourfontawesomekit.js" crossorigin="anonymous"></script>
+</body>
+</html>
+

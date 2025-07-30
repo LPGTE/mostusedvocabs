@@ -1,0 +1,226 @@
+/* Typographie de base */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Sticky footer support */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.tableStyle1 th,
+.tableStyle1 td {
+  border-width: 1px !important;
+  border-style:solid !important;
+}
+
+.tableStyle1 td {
+  padding:5px !important;
+}
+
+.project-card {
+  border: none;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25); /* 👈 ombre forte */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35); /* 👈 ombre encore plus forte au hover */
+}
+
+.image-wrapper {
+ padding: 12px;
+ width:100%;
+ height:160px;
+}
+
+.project-image {
+ width: 100%;
+ height: auto;
+ border-radius: 8px;
+}
+    
+.project-card1 {
+  height: 200px !important;
+  border: none;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25); /* 👈 ombre forte */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card1:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35); /* 👈 ombre encore plus forte au hover */
+}
+
+.image-wrapper1 {
+ padding: 12px;
+}
+
+.project-image1 {
+ width: 200px;
+ height: 150px !important;
+ border-radius: 8px;
+}
+       
+.containerPageMargin{
+  margin-top:80px !important;
+}
+
+.color1 {
+  color: rgb(44, 62, 80) !important;
+}
+
+.colorWhite {
+  background-color: White !important;
+}
+
+/* Arrière-plan du sous-menu */
+.dropdown-menu {
+  background-color:rgb(44, 62, 80); /* couleur de fond */
+  Color:White !important;
+  border: none; /* optionnel : supprime la bordure par défaut */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* petite ombre */
+}
+
+/* Liens dans le sous-menu */
+.dropdown-item {
+  color: White !important; /* couleur du texte */
+  font-weight: 500;
+  padding: 10px 20px;
+}
+
+/* Effet au survol */
+.dropdown-item:hover {
+  background-color: #dbe5ff; /* fond au survol */
+  color: rgb(44, 62, 80) !important; /* texte au survol */
+}
+
+/* Navbar */
+.navbar.bg-primary {
+  background-color: #2c3e50 !important;
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+}
+.nav-link:hover, .nav-link.active {
+  color: #18bc9c !important;
+}
+
+/* Masthead */
+.masthead {
+  padding: 6rem 0;
+  background-color:#6F9283;
+}
+.masthead-avatar {
+  width: 150px;
+  border-radius: 50%;
+  border: solid 4px #18bc9c;
+}
+.masthead-heading {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight:bold;
+}
+.masthead-subheading {
+  font-size: 1.25rem;
+  color: #ecf0f1;
+  font-weight:bold;
+}
+
+/* Sections */
+.section-heading {
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+/* Portfolio */
+.page-section.bg-light {
+  background-color: #ecf0f1;
+}
+.portfolio-item {
+  position: relative;
+  cursor: pointer;
+}
+.portfolio-hover {
+  position: absolute;
+  width: 100%; height: 100%;
+  top: 0; left: 0;
+  background: rgba(24,188,156,0.7);
+  opacity: 0;
+  transition: opacity .3s;
+}
+.portfolio-item:hover .portfolio-hover {
+  opacity: 1;
+}
+.portfolio-hover-content {
+  position: absolute; top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+/* Contact form */
+.btn-primary {
+  background-color: #18bc9c;
+  border-color: #18bc9c;
+}
+.btn-primary:hover {
+  background-color: #128f76;
+  border-color: #128f76;
+}
+
+/* Footer */
+.footer {
+  background-color: rgb(26, 37, 47)!important;
+  color: #fff;
+  flex-shrink: 0;
+  background-color: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.maxHeight{
+  height: 100% !important;
+}
+
+.fitContentheight{
+  height: calc(100vh - 210px) !important;
+}
+
+.pdf-container {
+ width: 100%;
+ height: 100%;
+ overflow: hidden;
+}
+
+.pdf-container iframe {
+ width: 100%;
+ height: 100%;
+ border: 2px solid #ccc;
+}
+    
+iframe {
+ width: 100%;
+ height: 100%;
+ border: 2px solid #ccc;
+ outline: none; 
+ box-shadow: none;
+}
+    
+    
+
