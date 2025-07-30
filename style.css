@@ -200,7 +200,7 @@ main {
 }
 
 .fitContentheight{
-  height: calc(100vh - 210px) !important;
+  min-height: calc(100vh - 210px);
 }
 
 .pdf-container {
@@ -235,8 +235,8 @@ iframe {
  
 
 #pdf-viewer {
- height: 100%;
- overflow-y: scroll;
+max-height: 100%;
+overflow-y: auto;
  background: #eee;
  padding: 1rem;
  border: 2px solid #ccc;
