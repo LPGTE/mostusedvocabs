@@ -232,7 +232,20 @@ iframe {
   pointer-events: auto
 }
 
-  
+#pdf-viewer {
+height: 100vh;
+overflow-y: scroll;
+background: #eee;
+padding: 1rem;
+}
+
+canvas {
+display: block;
+margin: 1rem auto;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+      
     
     
 
