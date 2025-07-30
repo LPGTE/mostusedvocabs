@@ -199,7 +199,7 @@ main {
 }
 
 .fitContentheight{
-  height: calc(100vh - 210px) !important;
+  height: 100%
 }
 
 .pdf-container {
@@ -231,11 +231,7 @@ iframe {
   overflow: auto;
   pointer-events: auto
 }
- 
-      #pdf-viewer {
-        height: 100%;
-        width: 100%;
-      } 
+
   
     
     
