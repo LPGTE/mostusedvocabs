@@ -178,6 +178,7 @@ main {
   background-color: #18bc9c;
   border-color: #18bc9c;
 }
+
 .btn-primary:hover {
   background-color: #128f76;
   border-color: #128f76;
@@ -199,7 +200,7 @@ main {
 }
 
 .fitContentheight{
-  height: 100%
+  height: calc(100vh - 210px) !important;
 }
 
 .pdf-container {
@@ -231,21 +232,20 @@ iframe {
   overflow: auto;
   pointer-events: auto
 }
+ 
 
 #pdf-viewer {
-height: 100vh;
-overflow-y: scroll;
-background: #eee;
-padding: 1rem;
+ height: 100%;
+ overflow-y: scroll;
+ background: #eee;
+ padding: 1rem;
+ border: 2px solid #ccc;
 }
 
 canvas {
-display: block;
-margin: 1rem auto;
-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+ display: block;
+ margin: 1rem auto;
+ box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
-
-      
-    
     
 
